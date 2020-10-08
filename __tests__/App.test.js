@@ -5,7 +5,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-import App from './App';
+import App from '../components/App';
 // import { act } from 'react-test-renderer';
 import { act } from 'react-dom/test-utils';
 
